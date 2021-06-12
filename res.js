@@ -2,7 +2,7 @@
 // strick agar kode dijalankan ketat
 
 exports.ok = (values, res) => {
-  const data = {
+  var data = {
     status: 200,
     values: values,
   };
